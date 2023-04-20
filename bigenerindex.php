@@ -170,7 +170,7 @@ if (mysqli_num_rows($query)>0)
 									<td class="textlength"><?php echo $res['words']; ?> words<br><small class="text-muted"><?php echo $res['characters']; ?> characters</small></td>
 									<td class="views">0</td>
 									<td class="tests_taken">7</td>
-<td class="age">Time:<?php echo date("H:i", strtotime($res['dates']));?><br><small class="text-muted">Date:<?php echo date("d.m.Y", strtotime($res['dates']));?></small></td>
+<td class="age">Time:<?php echo date("H:i", strtotime($res['date']));?><br><small class="text-muted">Date:<?php echo date("d.m.Y", strtotime($res['date']));?></small></td>
 								</tr>  									
 <?php } 
 }    ?>									

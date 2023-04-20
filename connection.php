@@ -3,7 +3,7 @@
    $username="root";
    $password="";
    $server='localhost';
-   $db='sitedata';
+   $db='typing';
 
 $con= mysqli_connect($server, $username,$password,$db);
 

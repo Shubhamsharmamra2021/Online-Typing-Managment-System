@@ -95,7 +95,7 @@ include 'connection.php';
 									  <h2 id="view-title" style=" text-transform: uppercase;">GYATRI COMPUTER CLASSES MORENA (MP) || ☺ || ༺•|✤आपकी सफलता हमारा ध्‍येय✤|•༻<?php echo  $row['title'];  ?> </h2>
 									  </br>
                    	        	<p class="text-muted">
-                                    <small>created time:<?php echo date("H:i", strtotime($row['dates']));?> Date:<?php echo date("d.m.Y", strtotime($row['dates']));?><a href="tindex.php">GayatriComputerClasses</a></small>
+                                    <small>created time:<?php echo date("H:i", strtotime($row['date']));?> Date:<?php echo date("d.m.Y", strtotime($row['date']));?><a href="tindex.php">GayatriComputerClasses</a></small>
                    	         	</p>
 							</div>
 							   </br>
@@ -222,7 +222,7 @@ tr:nth-child(even) {background-color: #cccccc;}
   letter-spacing: 1px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);"  id="btnDone" >Done</button>
- 												<a href="/login.php#loginform"><button style="margin-left: 25%; margin-bottom: 200px; margin-top: 100px; 
+ 												<a href="login.php#loginform"><button style="margin-left: 25%; margin-bottom: 200px; margin-top: 100px; 
   position: relative;
    height: 60px;
   width: 40%;

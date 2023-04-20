@@ -85,8 +85,8 @@ require ('logincheck.php');
                                         </div>
                                     </div>
                                     
-                                     <div class="col-lg-7 col-md-6 img-box" >
-                                        <img src="img/sideimg.png"  alt="">
+                                     <div class="col-lg-7 col-md-7 img-box" >
+                                        <img src="images/profile-4.jpeg"  alt="">
                                     </div>
                                 </div>
                             </div>

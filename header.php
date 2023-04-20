@@ -119,7 +119,8 @@
                                                     <li class="current"><a href="index.html#home">Home</a></li>
                                                      <li><a href="index.html#services ">Courses</a></li>
                                                     <li><a href="tindex.php" >Typing</a></li>
-                                                    <li><a onclick='window.open("https://gcc.shivanjprogramming.tech/exam/account.php?q=1","_blank","width=1210,height=655,left=160,top=120")'>Exam</a></li>
+                                                    <!-- <li><a onclick='window.open("exam/account.php?q=1","_blank","width=1210,height=655,left=160,top=120")'>Exam</a></li> -->
+                                                    <li><a onclick='window.open("calculator/index.html","_blank","width=1210,height=655,left=160,top=120")'>Calculator</a></li>
                                                     <li><a href="index.html#teams">Student</a></li>
                                                     <li><a href="contact.php">Contact Us</a></li>
                                                     <li><a href="login.php#loginform">Login</a></li>
